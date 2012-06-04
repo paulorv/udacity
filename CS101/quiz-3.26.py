@@ -12,13 +12,10 @@ def find_element(target,value):
 	for i in target:
 		if i == value:
 			return target.index(i)
-		else:
-			
-			
-
+	return -1
 
 print find_element([1,2,3],3)
 #>>> 2
 
-#print find_element(['alpha','beta'],'gamma')
+print find_element(['alpha','beta'],'gamma')
 #>>> -1
