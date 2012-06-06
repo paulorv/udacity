@@ -55,7 +55,8 @@ incorrect4 = [['a','b','c'],
 incorrect5 = [ [1, 1.5],
                [1.5, 1]]
                
-def check_sudoku():
+def check_sudoku(puzzle):
+	
     
 
 
