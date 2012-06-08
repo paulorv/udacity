@@ -6,7 +6,12 @@
 # division instead of integer division. You get decimal division if any of
 # the numbers involved are decimals.
 
-def list_mean():
+def list_mean(q):
+	div = len(q)
+	sum = 0.0
+	while q:
+		sum = sum + q.pop()
+	return sum / div
 
 
 print list_mean([1,2,3,4])
