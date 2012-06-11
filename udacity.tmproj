@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>CS101/quiz-4.6.py</string>
+	<string>CS101/hw-4.6.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -31,74 +31,28 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>CS101/exp-3.2.py</key>
+		<key>CS101/hw-4.6.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>20</integer>
 				<key>line</key>
-				<integer>0</integer>
+				<integer>52</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>CS101/exp-3.3.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>17</integer>
-				<key>line</key>
-				<integer>13</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>CS101/quiz-4.6.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>14</integer>
-				<key>line</key>
-				<integer>33</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>10</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>31</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>14</integer>
-				<key>line</key>
-				<integer>33</integer>
-			</dict>
+			<integer>104</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>CS101/exp-3.3.py</string>
-		<string>CS101/quiz-4.6.py</string>
-		<string>CS101/exp-3.2.py</string>
+		<string>CS101/hw-4.6.py</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{211, 85}, {1230, 793}}</string>
+	<string>{{210, 85}, {1230, 793}}</string>
 </dict>
 </plist>
