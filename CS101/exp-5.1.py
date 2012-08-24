@@ -3,16 +3,16 @@
 # following 'z'.
 
 def shift(letter):
-	wildcard = 0
-	shifted = ord(letter) - wildcard
-	if ord(letter) >= ord('z'):
-		wildcard = 25
-		return chr(shifted)
-	return chr(shifted + 1)
+	alpha_len = 26
+	n = 1
+	shift = chr(ord(letter) + n)
+	if ord(shift) >= (ord('a') + alpha_len):
+		shift = chr(ord(letter) + n - alpha_len)
+	return shift
 		
 	# if letter == 'z':
 	# 	return chr(ord(letter) - 25)
-	# return chr(ord(letter) + 1)
+	# return chr(ord(letter) + 2)
 
 
 

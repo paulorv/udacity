@@ -3,12 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>CS101/exp-5.1.py</string>
+	<string>google-python-exercises/basic/list1.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
-			<key>expanded</key>
-			<true/>
 			<key>name</key>
 			<string>CS101</string>
 			<key>regexFolderFilter</key>
@@ -17,128 +15,122 @@
 			<string>CS101</string>
 		</dict>
 		<dict>
-			<key>expanded</key>
-			<true/>
 			<key>name</key>
 			<string>CS262</string>
 			<key>regexFolderFilter</key>
 			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
 			<key>sourceDirectory</key>
 			<string>CS262</string>
+		</dict>
+		<dict>
+			<key>expanded</key>
+			<true/>
+			<key>name</key>
+			<string>google-python-exercises</string>
+			<key>regexFolderFilter</key>
+			<string>!.*/(\.[^/]*|CVS|_darcs|_MTN|\{arch\}|blib|.*~\.nib|.*\.(framework|app|pbproj|pbxproj|xcode(proj)?|bundle))$</string>
+			<key>sourceDirectory</key>
+			<string>google-python-exercises</string>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>CS101/exp-5.1.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>6</integer>
-				<key>line</key>
-				<integer>23</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>CS101/exp-5.2.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>14</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>7</integer>
+				<integer>6</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>13</integer>
+				<key>line</key>
+				<integer>10</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>6</integer>
+			</dict>
 		</dict>
 		<key>CS101/exp-5.3.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>8</integer>
+				<integer>28</integer>
 				<key>line</key>
-				<integer>20</integer>
+				<integer>19</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>CS101/hw-5.4.py</key>
+		<key>CS101/quiz-6.15.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>6</integer>
 				<key>line</key>
-				<integer>76</integer>
+				<integer>5</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>47</integer>
+			<integer>0</integer>
 		</dict>
-		<key>CS101/hw-5.5.py</key>
+		<key>google-python-exercises/basic/list1.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>31</integer>
 				<key>line</key>
-				<integer>97</integer>
+				<integer>61</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>57</integer>
+			<integer>28</integer>
 		</dict>
-		<key>CS101/hw-5.6.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>15</integer>
-				<key>line</key>
-				<integer>24</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>CS101/hw-5.7.py</key>
+		<key>google-python-exercises/basic/solution/list1.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
 				<integer>0</integer>
 				<key>line</key>
-				<integer>47</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>6</integer>
+			<integer>38</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>CS101/hw-5.4.py</string>
-		<string>CS101/hw-5.5.py</string>
-		<string>CS101/hw-5.6.py</string>
-		<string>CS101/hw-5.7.py</string>
-		<string>CS101/exp-5.1.py</string>
 		<string>CS101/exp-5.2.py</string>
 		<string>CS101/exp-5.3.py</string>
+		<string>CS101/quiz-6.15.py</string>
+		<string>google-python-exercises/basic/list1.py</string>
+		<string>google-python-exercises/basic/solution/list1.py</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>

@@ -2,14 +2,15 @@
 #fibonacci(36).
 
 def fibonacci(n):
-	count = 0
 	s = 0
 	t = 1
-	while t < n:
-		t = s + t
-		s = t
-		print t
+	while count < n:
+		s = s + t
+		t = s
+		print s + t
 		count += 1
+		
+		
 
 
 
