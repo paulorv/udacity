@@ -7,6 +7,8 @@
 	<key>documents</key>
 	<array>
 		<dict>
+			<key>expanded</key>
+			<true/>
 			<key>name</key>
 			<string>CS101</string>
 			<key>regexFolderFilter</key>
@@ -37,77 +39,19 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>CS101/exp-5.2.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>13</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>6</integer>
-			</dict>
-		</dict>
-		<key>CS101/exp-5.3.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>28</integer>
-				<key>line</key>
-				<integer>19</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
-		<key>CS101/quiz-6.15.py</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>6</integer>
-				<key>line</key>
-				<integer>5</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>google-python-exercises/basic/list1.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>31</integer>
+				<integer>19</integer>
 				<key>line</key>
-				<integer>61</integer>
+				<integer>74</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>28</integer>
+			<integer>62</integer>
 		</dict>
 		<key>google-python-exercises/basic/solution/list1.py</key>
 		<dict>
@@ -126,11 +70,7 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>CS101/exp-5.2.py</string>
-		<string>CS101/exp-5.3.py</string>
-		<string>CS101/quiz-6.15.py</string>
 		<string>google-python-exercises/basic/list1.py</string>
-		<string>google-python-exercises/basic/solution/list1.py</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
