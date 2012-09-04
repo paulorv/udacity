@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>google-python-exercises/basic/list1.py</string>
+	<string>CS101/exam-p2.2.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -39,19 +39,103 @@
 	<integer>200</integer>
 	<key>metaData</key>
 	<dict>
-		<key>google-python-exercises/basic/list1.py</key>
+		<key>CS101/exam-p1.4.py</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>19</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>74</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>62</integer>
+			<integer>0</integer>
+		</dict>
+		<key>CS101/exam-p1.6.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>13</integer>
+				<key>line</key>
+				<integer>7</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>CS101/exam-p1.7.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>1</integer>
+				<key>line</key>
+				<integer>16</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>CS101/exam-p1.8.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>28</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>CS101/exam-p1.9.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>32</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>CS101/exam-p2.1.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>107</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
+		<key>CS101/exam-p2.2.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>64</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>23</integer>
 		</dict>
 		<key>google-python-exercises/basic/solution/list1.py</key>
 		<dict>
@@ -70,7 +154,13 @@
 	</dict>
 	<key>openDocuments</key>
 	<array>
-		<string>google-python-exercises/basic/list1.py</string>
+		<string>CS101/exam-p1.4.py</string>
+		<string>CS101/exam-p1.6.py</string>
+		<string>CS101/exam-p1.7.py</string>
+		<string>CS101/exam-p1.8.py</string>
+		<string>CS101/exam-p1.9.py</string>
+		<string>CS101/exam-p2.1.py</string>
+		<string>CS101/exam-p2.2.py</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
