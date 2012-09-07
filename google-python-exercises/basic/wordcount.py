@@ -39,6 +39,14 @@ print_words() and print_top().
 
 import sys
 
+def word_count(filename):
+	words = []
+	f = open(filename, 'r')
+	for line in f:
+		words.append(line)
+	f.close()
+	print words
+
 # +++your code here+++
 # Define print_words(filename) and print_top(filename) functions.
 # You could write a helper utility function that reads a file
@@ -60,6 +68,8 @@ def main():
     print_words(filename)
   elif option == '--topcount':
     print_top(filename)
+  elif option == '--debug':
+  	word_count(filename)
   else:
     print 'unknown option: ' + option
     sys.exit(1)
