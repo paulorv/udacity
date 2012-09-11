@@ -40,13 +40,33 @@ print_words() and print_top().
 import sys
 
 def word_count(filename):
-	words = []
+	words = {}
 	f = open(filename, 'r')
 	for line in f:
-		words.append(line)
+		for i in line[:-1].lower().split(' '):
+			if len(i) > 0 and i.isalpha():
+				if i not in words:
+					words[i] = 1
+				else:
+					words[i] = words[i] + 1
 	f.close()
-	print words
-
+	return words
+	
+def print_words(filename):
+	words = word_count(filename)
+	for element in sorted(words):
+		print element + " " + str(words[element])
+		
+def print_top(filename):
+	topwords = word_count(filename)
+	i = 0
+	for element in sorted(topwords, key=topwords.get, reverse=True):
+		print element, topwords[element]
+		if i > 19:
+			break
+		i += 1
+	print i
+	
 # +++your code here+++
 # Define print_words(filename) and print_top(filename) functions.
 # You could write a helper utility function that reads a file
