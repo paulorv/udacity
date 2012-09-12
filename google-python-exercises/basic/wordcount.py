@@ -55,17 +55,16 @@ def word_count(filename):
 def print_words(filename):
 	words = word_count(filename)
 	for element in sorted(words):
-		print element + " " + str(words[element])
+		print element, words[element]
 		
 def print_top(filename):
 	topwords = word_count(filename)
-	i = 0
+	i = 1
 	for element in sorted(topwords, key=topwords.get, reverse=True):
 		print element, topwords[element]
-		if i > 19:
+		if i > 20:
 			break
 		i += 1
-	print i
 	
 # +++your code here+++
 # Define print_words(filename) and print_top(filename) functions.
