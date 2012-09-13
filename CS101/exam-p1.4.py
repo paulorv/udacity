@@ -10,12 +10,17 @@
 # there will be no '<' without a following '>'.
 
 def remove_tags(text):
-	start_tag = text.find('<')
-	end_tag = text.find('>')
-	keywords = []
-	for i in text:
-		kword = []
-		
+	words = []
+	word = ""
+	current_pos = 0
+	while current_pos < len(text):
+		if text[current_pos] == "<":
+			current_pos = text.find(">",current_pos + 1)
+		else:
+			word = word + text[current_pos]
+#			words.append(text[current_pos])
+			current_pos += 1
+	return word
 
 print remove_tags('''<h1>Title</h1><p>This is a
                     <a href="http://www.udacity.com">link</a>.<p>''')
