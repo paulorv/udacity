@@ -52,20 +52,7 @@ accepting2 = [2]
 # over all of the keys in the mapping (i.e., over all of the (state,letter)
 # pairs) -- you'll have to write "edges[edge]" to get the destination list. 
 
-def nfsmaccepts(current, edges, accepting, visited): 
-		if current in accepting:
-			return ""	# base case
-		elif current in visited:
-			return None
-		else:
-			newvisited = visited + [current]
-			for edge in edges:
-				if edge[0] == current:
-					for newstate in edges[edge]:
-						foo = nfsmaccepts(newstate,edges,accepting,newvisited)
-						if foo != None:
-							return edge[1] + foo
-			return None
+def nfsmaccepts(current, edges, accepting, visited):
         
 
 # This problem includes some test cases to help you tell if you are on

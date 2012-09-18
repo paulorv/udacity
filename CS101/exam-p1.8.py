@@ -7,7 +7,22 @@
 # be the one that appears first. If the input list is empty, 
 # it should return None.
 
-def longest_repetition():
+def longest_repetition(elements):
+	if len(elements) == 0:
+		return None
+	current = ""
+	highest = ""
+	count = 0
+	for i in elements:
+		if current == i:
+			count += 1
+			highest = i
+		else:
+			count = 0
+			highest = ""
+		current = i
+		print "Current value: " + str(current) + " " + "Occurances: " + str(count)
+	return highest
 
 
 
@@ -17,12 +32,12 @@ def longest_repetition():
 print longest_repetition([1, 2, 2, 3, 3, 3, 2, 2, 1])
 # 3
 
-print longest_repetition(['a', 'b', 'b', 'b', 'c', 'd', 'd', 'd'])
-# b
+#print longest_repetition(['a', 'b', 'b', 'b', 'c', 'd', 'd', 'd'])
+## b
 
-print longest_repetition([1,2,3,4,5])
-# 1
+#print longest_repetition([1,2,3,4,5])
+## 1
 
-print longest_repetition([])
-# None
+#print longest_repetition([])
+## None
 

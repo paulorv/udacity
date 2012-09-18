@@ -1,25 +1,29 @@
+# Title: Summing Numbers
+
+# Write a procedure called sumnums(). Your procedure must accept as input a
+# single string. Your procedure must output an integer equal to the sum of
+# all integer numbers (one or more digits in sequence) within that string.
+# If there are no decimal numbers in the input string, your procedure must
+# return the integer 0. The input string will not contain any negative integers.
+#
+# Example Input: "hello 2 all of you 44"
+# Example Output: 46
+#
+# Hint: int("44") == 44
+
 import re
 
-def sumnums(sentence): 
-# write your code here
-	found = re.findall("[0-9]+", sentence)
-	if len(found) > 0:
-		found = [int(i) for i in found]
-		sumints = sum(found)
-		return sumints
-	else:
+def sumnums(sentence):
+	match = re.findall(r"[0-9]+",sentence)
+	if not len(match):
 		return 0
-		
-	#print type(found)
-	# for i in found:
-	# 	print i
-	# 	print type(i)
-	
-
-	# another way (str > int)
-	# found = map(int, found)
+	current = 0
+	for i in match:
+		current += int(i)
+	return current
          
-sumnums("8 planets and 4 moons")
+print sumnums("eight planets and four moons")
+        
         
 # This problem includes an example test case to help you tell if you are on
 # the right track. You may want to make your own additional tests as well.

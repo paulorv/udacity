@@ -35,19 +35,7 @@ accepting = [2, 5]
 # It accepts both "aaa" (visiting states 1 2 2 and finally 2) and "abbc"
 # (visting states 1 3 3 4 and finally 5). 
 
-def nfsmsim(string, current, edges, accepting): 
-# fill in your code here 
-	if string == "":
-		return current in accepting
-	else:
-		letter = string[0:1]
-		if (current, letter) in edges:
-			destination = edges[(current,letter)]
-			remaining_string = string[1:]
-			for i in destination:
-				if nfsmsim(remaining_string,i,edges,accepting):
-					return True
-		return False
+def nfsmsim(string, current, edges, accepting):
         
 
 # This problem includes some test cases to help you tell if you are on

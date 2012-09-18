@@ -27,7 +27,7 @@
 
 import re
 
-regexp = r"(?:[a-z]+)-(?:[a-z]+)|[a-z]+" # you should replace this with your regular expression
+regexp = r"[a-z]+(?:-[a-z]+)?" # you should replace this with your regular expression
 
 # This problem includes an example test case to help you tell if you are on
 # the right track. You may want to make your own additional tests as well.
